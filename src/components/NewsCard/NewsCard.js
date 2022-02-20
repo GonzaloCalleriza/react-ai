@@ -3,7 +3,7 @@ import { Card, CardActions, CardActionArea, CardContent, CardMedia, Button, Typo
 
 import useStyles from './styles.js';
 
-const NewsCard = ({ article: { description, publishedAt, source, title, url, urlToImage }, i }) => {
+const NewsCard = ({ article: { description, publishedAt, source, title, url, urlToImage }, i, activeArticle }) => {
 
     const classes = useStyles();
 
